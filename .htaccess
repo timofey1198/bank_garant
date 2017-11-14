@@ -1,0 +1,5 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+RewriteRule ^out$ index.php?out=1 [PT]
+RewriteRule ^contact$ index.php?contact=1 [PT]
